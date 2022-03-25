@@ -7,8 +7,8 @@ share-description: sample twitter
 {% for item in site.twitter %}
     <div class="post row">
         <div class="name">
-            <img class="profile" src="{{ site.data.users[item.author].avatar }}" alt="avatar">
-            <h1><a href="/profiles/{{ item.author }}" class="pro">{{ site.data.users[item.author].name }}</a></h1>
+            <img class="profile" src="{{ site.data.users[item.author].avatar | relative_url }}" alt="avatar">
+            <h1><a href="{{'/profiles/' | append: item.author | relative_url }}" class="pro">{{ site.data.users[item.author].name }}</a></h1>
         </div>
         <div class="post-content">{{ item.content | markdownify }}</div>
     </div>
