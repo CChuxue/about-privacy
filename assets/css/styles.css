@@ -1,0 +1,72 @@
+.post h1 {
+    padding:10px;
+    margin: 20px;
+}
+
+.post p {
+    display: inline-block;
+}
+
+.post .name {
+    width:80%;
+    /* margin-left: 15%; */
+    border:1px solid black;
+    border-radius: 15px;
+    display: flex;
+}
+
+.post .name img{ 
+    width: 80px;
+    height: 80px;
+    margin: 10px 5px 10px 10px;
+    padding: none;
+    border:1px solid gray;
+    border-radius: 50%;
+}
+
+.post .name h1{
+    font-size: 30px;
+    padding: 15px 10px 10px 5px;
+    align-items: left;
+}
+
+.post .name a{
+    text-decoration: none;
+    color: black;
+}
+
+.post .name a:hover{
+    text-decoration: underline;
+}
+
+.post img{
+    width: 100%;
+    padding: 6px;
+    margin-top: 2px;
+    border-radius: 15px;
+}
+.post-content {
+    width: 80%;
+    /* margin-left: 15%; */
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.post-content p{
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+}
+
+.post {
+    min-width: 70vh;
+}
+
+#userinfo-header .avatar {
+    width: 256px;
+    height: 256px;
+    margin: 10px 5px 10px 10px;
+    padding: none;
+    border:1px solid gray;
+    border-radius: 50%;
+}
